@@ -1,31 +1,31 @@
-# Flashcards · Rust Edition 🦀
+# Flashcards · Rust Edition
 
 A fast, fully terminal-based flashcard application written in Rust using **ratatui** and **crossterm**.  
 Create topics, edit cards, and study directly from your terminal — with progress tracking, randomization, and persistent storage.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🗂 **Topic-based organization**
+- **Topic-based organization**
   - Each topic lives in `/topics/<topic_name>/`
   - Each topic contains `questions.txt` and `answers.txt`
-- 🧠 **Study mode**
+- **Study mode**
   - Sequential or randomized question order
   - Input answers interactively
   - Review your responses at the end
-- ✍️ **Edit mode**
+-  **Edit mode**
   - Add, remove, or edit flashcards from inside the TUI
   - Changes persist automatically to disk
-- 📈 **Progress tracking**
+- **Progress tracking**
   - Visual progress gauge
   - Saves your session with timestamps (`flashcard_responses_YYYYMMDD-HHMMSS.txt`)
-- 💾 **Atomic file writes**
+- **Atomic file writes**
   - Safe saving through temporary files to prevent corruption
 
 ---
 
-## 🧱 Folder Structure
+## Folder Structure
 
 ```
 flashcards-rs/
@@ -47,7 +47,7 @@ Each topic folder must contain:
 
 ---
 
-## 🦾 Keyboard Shortcuts
+## Keyboard Shortcuts
 
 ### Global
 | Key | Action |
@@ -91,7 +91,7 @@ Each topic folder must contain:
 
 ---
 
-## 🚀 Running the App
+## Running the App
 
 ### 1. Clone and build
 ```bash
@@ -113,7 +113,7 @@ Or create them directly inside the app with `C`.
 
 ---
 
-## 💾 Saved Sessions
+## Saved Sessions
 
 When you finish a quiz, your results are saved automatically:
 ```
@@ -126,7 +126,7 @@ Each session log includes:
 
 ---
 
-## 🧩 Dependencies
+## Dependencies
 
 - [`ratatui`](https://crates.io/crates/ratatui) — Terminal UI library  
 - [`crossterm`](https://crates.io/crates/crossterm) — Terminal event handling  
@@ -136,7 +136,7 @@ Each session log includes:
 
 ---
 
-## 🧠 Example Study Session
+## Example Study Session
 
 ```
 Topic: AI
@@ -149,9 +149,9 @@ Progress bar updates live as you advance through cards.
 
 ---
 
-## 🧮 Development Notes
+## Development Notes
 
-### 🧩 Screen State Machine
+### Screen State Machine
 
 The app operates as a **finite state machine** with distinct UI screens managed by the `Screen` enum.  
 Each state defines a unique interaction context. Transitions are event-driven (keyboard input).
@@ -174,15 +174,14 @@ This modular architecture simplifies adding new screens or features (e.g., timed
 
 ---
 
-## 🛡 License
+## License
 
 MIT License.  
 Built with curiosity, caffeine, and the occasional panic over `unwrap()`.
 
 ---
 
-## 🧔 Author
+## Author
 
 **Frank Stallion**  
-📍 Fedora Linux  
-🦀 Terminal enjoyer & Rust tinkerer
+Fedora 42  
