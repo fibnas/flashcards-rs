@@ -5,7 +5,7 @@ edition = "2021"
 description = "A terminal-based flashcard app written in Rust using ratatui."
 license = "MIT"
 repository = "https://github.com/fibnas/flashcards-rs"
-categories = ["command-line-utilities", "education"]
+categories = ["command-line-utilities"]
 keywords = ["flashcards", "tui", "learning"]
 readme = "README.md"
 
