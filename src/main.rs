@@ -370,9 +370,9 @@ fn ui(f: &mut ratatui::Frame, app: &mut App) {
         .direction(Direction::Vertical)
         .constraints([
             Constraint::Length(1),
-            Constraint::Min(3),
+            Constraint::Min(10),
             Constraint::Length(3),
-            Constraint::Length(2),
+            Constraint::Length(3),
         ])
         .split(size);
 
