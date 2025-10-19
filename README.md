@@ -1,4 +1,5 @@
 # Flashcards · Rust Edition
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 A fast, fully terminal-based flashcard application written in Rust using **ratatui** and **crossterm**.
 Create topics, edit cards, and study directly from your terminal — with progress tracking, randomization, and persistent storage.
