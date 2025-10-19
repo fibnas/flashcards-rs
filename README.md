@@ -1,6 +1,6 @@
 # Flashcards · Rust Edition
 
-A fast, fully terminal-based flashcard application written in Rust using **ratatui** and **crossterm**.  
+A fast, fully terminal-based flashcard application written in Rust using **ratatui** and **crossterm**.
 Create topics, edit cards, and study directly from your terminal — with progress tracking, randomization, and persistent storage.
 
 ---
@@ -42,7 +42,7 @@ flashcards-rs/
 ```
 
 Each topic folder must contain:
-- `questions.txt` — one question per line  
+- `questions.txt` — one question per line
 - `answers.txt` — one answer per line, in the same order as the questions
 
 ---
@@ -95,13 +95,19 @@ Each topic folder must contain:
 
 ### 1. Clone and build
 ```bash
-git clone https://github.com/yourusername/flashcards-rs.git
+git clone https://github.com/fibnas/flashcards-rs.git
 cd flashcards-rs
+cargo run
+```
+OR
+
+```bash
+gh repo clone fibnas/flashcards-rs
 cargo run
 ```
 
 ### 2. Add Topics
-The app automatically scans `/topics/` for folders.  
+The app automatically scans `/topics/` for folders.
 To create new topics manually:
 ```bash
 mkdir -p topics/Space
@@ -120,18 +126,18 @@ When you finish a quiz, your results are saved automatically:
 flashcard_responses_20251019-225918.txt
 ```
 Each session log includes:
-- Question number and text  
-- Your answer  
-- The correct answer  
+- Question number and text
+- Your answer
+- The correct answer
 
 ---
 
 ## Dependencies
 
-- [`ratatui`](https://crates.io/crates/ratatui) — Terminal UI library  
-- [`crossterm`](https://crates.io/crates/crossterm) — Terminal event handling  
-- [`anyhow`](https://crates.io/crates/anyhow) — Simple error management  
-- [`chrono`](https://crates.io/crates/chrono) — Timestamps  
+- [`ratatui`](https://crates.io/crates/ratatui) — Terminal UI library
+- [`crossterm`](https://crates.io/crates/crossterm) — Terminal event handling
+- [`anyhow`](https://crates.io/crates/anyhow) — Simple error management
+- [`chrono`](https://crates.io/crates/chrono) — Timestamps
 - [`rand`](https://crates.io/crates/rand) — Randomized order support
 
 ---
@@ -153,7 +159,7 @@ Progress bar updates live as you advance through cards.
 
 ### Screen State Machine
 
-The app operates as a **finite state machine** with distinct UI screens managed by the `Screen` enum.  
+The app operates as a **finite state machine** with distinct UI screens managed by the `Screen` enum.
 Each state defines a unique interaction context. Transitions are event-driven (keyboard input).
 
 | State | Description | Key Transitions |
@@ -176,12 +182,12 @@ This modular architecture simplifies adding new screens or features (e.g., timed
 
 ## License
 
-MIT License.  
+MIT License.
 Built with curiosity, caffeine, and the occasional panic over `unwrap()`.
 
 ---
 
 ## Author
 
-**Frank Stallion**  
-Fedora 42  
+**Frank Stallion**
+Fedora 42
