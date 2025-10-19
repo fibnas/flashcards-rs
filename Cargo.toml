@@ -20,7 +20,3 @@ anyhow = "1.0"
 [[bin]]
 name = "flashcards-rs"
 path = "src/main.rs"
-
-[[bin]]
-name = "fcrs"
-path = "src/bin/fcrs.rs"
