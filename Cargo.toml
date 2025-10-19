@@ -2,6 +2,12 @@
 name = "flashcards-rs"
 version = "0.1.0"
 edition = "2021"
+description = "A terminal-based flashcard app written in Rust using ratatui."
+license = "MIT"
+repository = "https://github.com/fibnas/flashcards-rs"
+categories = ["command-line-utilities", "education"]
+keywords = ["flashcards", "tui", "learning"]
+readme = "README.md"
 
 [dependencies]
 ratatui = "0.27"
@@ -11,3 +17,10 @@ rand = "0.8"
 chrono = { version = "0.4", default-features = false, features = ["clock"] }
 anyhow = "1.0"
 
+[[bin]]
+name = "flashcards-rs"
+path = "src/main.rs"
+
+[[bin]]
+name = "fcrs"
+path = "src/main.rs"
