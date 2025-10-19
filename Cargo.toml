@@ -1,6 +1,6 @@
 [package]
 name = "flashcards-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A terminal-based flashcard app written in Rust using ratatui."
 license = "MIT"
