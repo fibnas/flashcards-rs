@@ -1,0 +1,10 @@
+Artificial Intelligence.
+Alan Turing.
+A machine’s ability to exhibit intelligent behavior indistinguishable from a human.
+Teaching computers to learn patterns from data instead of being explicitly programmed.
+To create machines that can perform tasks requiring human-like intelligence.
+Narrow AI is specialized for specific tasks, while general AI can perform any intellectual task a human can.
+A field of AI focused on enabling computers to understand and use human language.
+The structure and function of the human brain.
+Examples include Siri, Alexa, and ChatGPT.
+Data used to teach an AI model to make predictions or decisions.
