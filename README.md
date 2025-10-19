@@ -4,6 +4,8 @@ A fast, fully terminal-based flashcard application written in Rust using **ratat
 Create topics, edit cards, and study directly from your terminal — with progress tracking, randomization, and persistent storage.
 
 ---
+[![Crates.io](https://img.shields.io/crates/v/flashcards-rs.svg)](https://crates.io/crates/flashcards-rs)
+
 
 ## Features
 
@@ -105,6 +107,14 @@ OR
 gh repo clone fibnas/flashcards-rs
 cargo run
 ```
+
+OR
+
+```bash
+cargo install flashcards-rs
+```
+[![Crates.io](https://img.shields.io/crates/v/flashcards-rs.svg)](https://crates.io/crates/flashcards-rs)
+
 
 ### 2. Add Topics
 The app automatically scans `/topics/` for folders.
